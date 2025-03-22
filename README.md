@@ -33,7 +33,7 @@ Good custom LazyVim configuration: [LazyVim for Ambitious Developers](https://la
 
 ### LazyExtras
 
-**[mini.files](https://github.com/echasnovski/mini.files)**
+#### [mini.files](https://github.com/echasnovski/mini.files)
 
 The mini.files file manager is kind of like a Neovim-native experience of the columnar view.
 
@@ -43,3 +43,11 @@ The mini.files file manager is kind of like a Neovim-native experience of the co
 Interacting is very similar to interacting with a standard vim window: h, j, l, dd, yy,...
 
 **Any modification will not actually be saved on the filesystem until you type the `=` key.**
+
+
+#### [markdown-preview](https://github.com/iamcco/markdown-preview.nvim)
+
+Preview Markdown in your modern browser with synchronised scrolling and flexible configuration.
+
+`<space>Mp`
+
