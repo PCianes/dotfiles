@@ -29,6 +29,8 @@ When stowing your dotfiles, you must adhere to a pretty strict naming convention
 A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
 Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
 
+Good custom LazyVim configuration: [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
+
 ### LazyExtras
 
 **[mini.files](https://github.com/echasnovski/mini.files)**
