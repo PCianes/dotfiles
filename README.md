@@ -49,5 +49,6 @@ Interacting is very similar to interacting with a standard vim window: h, j, l, 
 
 Preview Markdown in your modern browser with synchronised scrolling and flexible configuration.
 
-`<space>Mp`
+- Start preview: `<space>Mp`
+- Stop preview: `<space>Ms`
 
