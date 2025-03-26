@@ -182,10 +182,15 @@ For macOS, you can install it using Homebrew:
 
 ```bash
 brew install lazygit
+
 ```
+
 ### Install a Nerd Font
 
-To install a Nerd Font, visit the [Nerd Fonts website](https://www.nerdfonts.com/) and download your preferred font. After downloading, install the font on your system.
+To install a Nerd Font,
+visit the [Nerd Fonts website](https://www.nerdfonts.com/)
+and download your preferred font.
+After downloading, install the font on your system.
 
 For Linux, you can copy the font files to the `~/.fonts` directory and run:
 
@@ -194,6 +199,9 @@ fc-cache -fv
 ```
 
 For macOS, double-click the font file and click "Install Font."
+
+A great recommendation is **FiraCode Nerd Font**,
+known for its clean design and ligature support.
 
 ## LazyExtras
 
