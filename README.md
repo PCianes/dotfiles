@@ -160,6 +160,41 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 Good custom LazyVim configuration: [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/)
 
+### Install ripgrep
+
+```bash
+sudo apt install ripgrep
+```
+
+For macOS, you can install it using Homebrew:
+
+```bash
+brew install ripgrep
+```
+
+### Install lazygit
+
+```bash
+sudo apt install lazygit
+```
+
+For macOS, you can install it using Homebrew:
+
+```bash
+brew install lazygit
+```
+### Install a Nerd Font
+
+To install a Nerd Font, visit the [Nerd Fonts website](https://www.nerdfonts.com/) and download your preferred font. After downloading, install the font on your system.
+
+For Linux, you can copy the font files to the `~/.fonts` directory and run:
+
+```bash
+fc-cache -fv
+```
+
+For macOS, double-click the font file and click "Install Font."
+
 ## LazyExtras
 
 ### [mini.files](https://github.com/echasnovski/mini.files)
@@ -179,7 +214,33 @@ on the filesystem until you type the `=` key.**
 ### [markdown-preview](https://github.com/iamcco/markdown-preview.nvim)
 
 Preview Markdown in your modern browser
-with synchronised scrolling and flexible configuration.
+with synchronised scrolling and flexible configuration
 
 - Start preview: `<space>Mp`
 - Stop preview: `<space>Ms`
+
+### [copilot](https://github.com/zbirenbaum/copilot.lua) & [copilot-chat](https://github.com/CopilotC-Nvim/CopilotChat.nvim)
+
+The configuration already includes the `Copilot` and `Copilot Chat` plugins.
+
+Copilot provides AI-powered code suggestions as you type.
+
+Copilot Chat allows you to interact with the AI directly within Neovim.
+
+  ```vim
+  :CopilotChatOpen
+```
+
+#### Authentication for Copilot and Copilot Chat
+
+To use `Copilot` and `Copilot Chat`, you need to authenticate with your GitHub account:
+
+   ```vim
+   :Copilot auth
+   ```
+
+##### Keyboard Shortcuts for Copilot Chat
+
+To interact with Copilot Chat, start by pressing `g` in normal or visual mode.
+This will display the available options for actions like
+asking questions, requesting code explanations, or refactoring.
