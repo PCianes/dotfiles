@@ -174,15 +174,10 @@ brew install ripgrep
 
 ### Install lazygit
 
-```bash
-sudo apt install lazygit
-```
-
-For macOS, you can install it using Homebrew:
+[lazygit](https://github.com/jesseduffield/lazygit) is a simple terminal UI for git commands.
 
 ```bash
-brew install lazygit
-
+brew install jesseduffield/lazygit/lazygit
 ```
 
 ### Install a Nerd Font
