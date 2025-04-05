@@ -107,7 +107,7 @@ built-in LSP support, and a more flexible plugin system.
 
 ### Install Neovim via Homebrew
 
-`browserw install neovim`
+`brew install neovim`
 
 ### Install Neovim via package manager (Debian-based)
 
